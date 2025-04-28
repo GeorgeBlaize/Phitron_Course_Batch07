@@ -1,0 +1,4 @@
+Enter first number:
+Enter second number:
+The second number is: 67
+The first number is : 54

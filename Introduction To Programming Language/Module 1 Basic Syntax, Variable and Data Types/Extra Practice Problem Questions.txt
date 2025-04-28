@@ -1,0 +1,35 @@
+Explain why we need long long int data type? 
+Write all the rules for naming a variable in C programming.
+Write a C program that will take 2 numbers from the user and then print the 2nd number first and then first number.  
+
+Question1:
+
+Why do we need long long int data type?
+In C programming, we use long long int when we need to store very large integer values that don't fit into regular int or even long int.
+
+A typical int can usually store values from about -32,768 to 32,767 (for 16-bit int) or -2 billion to 2 billion (for 32-bit int).
+
+A long int can store slightly bigger values, but sometimes we still need to store even larger numbers, for example when:
+
+Working with large financial calculations
+
+Handling very large IDs or counters
+
+Dealing with problems requiring very big integer math (e.g., factorial of big numbers)
+
+The long long int typically provides at least 64 bits of storage, allowing values approximately between -9 × 10¹⁸ to 9 × 10¹⁸.
+
+
+Question2:
+Rules for Naming a Variable in C:
+Variable names must start with a letter (A-Z or a-z) or an underscore _.
+
+After the first character, the name can have letters, digits (0–9), or underscores.
+
+Variable names cannot be the same as C reserved keywords (like int, return, while, etc.).
+
+Variable names are case-sensitive (age, Age, and AGE are three different variables).
+
+Variable names should not have any spaces or special characters like @, #, !, etc.
+
+It’s best practice to give meaningful names (e.g., totalMarks is better than tm).
