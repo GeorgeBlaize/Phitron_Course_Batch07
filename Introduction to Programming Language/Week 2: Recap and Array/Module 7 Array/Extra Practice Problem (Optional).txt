@@ -1,0 +1,4 @@
+Take an array from input and print all the even numbers of that array.
+Take an array from input and count how many odd numbers are present in that array.
+Take an array from input and print the maximum value of that array.
+Take an array from input and print the minimum value of that array.
